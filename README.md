@@ -19,7 +19,7 @@ Show how to run the code
 - CUDA (GPU) -- Recommended
 - CUDNN (GPU) -- Recommended
 
-I recommend creating **isolated Python environments** using [Virtualenv] (https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. Here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/).
+I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. Here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/).
 
 ## Acknowledgement
 - Guided Gram Matrices is based on Gatys' paper [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865)
