@@ -3,22 +3,26 @@ Tensorflow implementation of semantic style transfer based on guided Gram Matric
 
 In construction...
 
-## Full Transfer
+## Usage
 
-## Semantic Transfer
+### Full Transfer
+Show how to run the code
+
+### Semantic Transfer
 
 ## Setup
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
 - [TensorFlow](https://www.tensorflow.org)
+- [SciPy](https://www.scipy.org/install.html)
 - [NumPy](http://www.numpy.org/)
-- [SciPy](https://www.scipy.org/)
 - [Pillow](http://pillow.readthedocs.io/en/3.3.x/installation.html#installation)
 - CUDA (GPU) -- Recommended
 - CUDNN (GPU) -- Recommended
 
+I recommend using [Virtualenv](https://virtualenv.pypa.io/en/stable/) to install Python (useful to avoid dependencies conflicts when working on different projects).
 
 ## Acknowledgement
-- This work is based on [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865)
+- Guided Gram Matrices is based on Gatys' paper [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865)
 - Our implementation is based on [anishathalye/neural-style](https://github.com/anishathalye/neural-style)
 - Our work is an implement of XX
 
