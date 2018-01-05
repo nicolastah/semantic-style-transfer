@@ -1,14 +1,25 @@
 # semantic-style-transfer
 Tensorflow implementation of semantic style transfer based on guided Gram Matrices
+Say that it uses the slow model (imqge optimisation problem)
 
 In construction...
+
+## Examples
 
 ## Usage
 
 ### Full Transfer
 Show how to run the code
+Put link to titu Kera implementation, say that can check his work for the tips
 
 ### Semantic Transfer
+Show how to run the code
+Explain guidance guided matrices = semantic mask
+Can put some links to some semantic segmentation algorithms
+Explain how to put the mask in my programm
+
+## Model
+VGG19, put the link of where you cn find it.  Explained briefly what is it and why we are using such model
 
 ## Setup
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
