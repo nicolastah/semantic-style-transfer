@@ -6,11 +6,12 @@ In construction...
 
 ## Examples
 
+## Requirements
 
-## Model
+### Model Weigths
 VGG19, put the link of where you cn find it.  Explained briefly what is it and why we are using such model
 
-## Setup
+### Dependencies
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
 - [TensorFlow](https://www.tensorflow.org)
 - [SciPy](https://www.scipy.org/install.html)
@@ -18,6 +19,9 @@ VGG19, put the link of where you cn find it.  Explained briefly what is it and w
 - [Pillow](http://pillow.readthedocs.io/en/3.3.x/installation.html#installation)
 - CUDA (GPU) -- Recommended
 - CUDNN (GPU) -- Recommended
+
+### Speed
+Talk about the speed with GPU. Do it with different mage size (similar as Titus). Then do the same without GPU. Say that it is also possbile but it is slower
 
 I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. Here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). Say that using Linux is easier than windows to install everything
 
@@ -39,9 +43,6 @@ Show how to run the code
 Explain guidance guided matrices = semantic mask
 Can put some links to some semantic segmentation algorithms
 Explain how to put the mask in my programm
-
-## Speed
-Talk about the speed with GPU. Do it with different mage size (similar as Titus). Then do the same without GPU. Say that it is also possbile but it is slower
 
 ## Acknowledgement
 - Guided Gram Matrices is based on Gatys' paper [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865)
