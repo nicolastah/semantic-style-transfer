@@ -3,6 +3,7 @@ Tensorflow implementation of semantic style transfer based on guided Gram Matric
 Say that it uses the slow model (imqge optimisation problem)
 
 In construction...
+## Implementation Details
 
 ## Examples
 
