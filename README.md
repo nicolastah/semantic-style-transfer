@@ -31,8 +31,11 @@ Copy this repository using the git clone
 Configure a new project using a python IDE (say that I personnaly use Pycharm), useful to debugg
 Configure project interpreter (chose the virtual env)
 
-## Usage
+```
+git clone https://github.com/nicolastah/semantic-style-transfer
+```
 
+## Usage
 ### Full Transfer
 Show how to run the code
 Say how to pgive param script using pycharm
