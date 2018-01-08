@@ -3,9 +3,13 @@ Tensorflow implementation of semantic style transfer based on guided Gram Matric
 Say that it uses the slow model (imqge optimisation problem)
 
 In construction...
-## Implementation Details
+
+## Contents
+Put hyperlink to the different section
 
 ## Examples
+
+## Implementation Details
 
 ## Installation
 Say that is pretty easy( no need to recomplie the project)
@@ -30,6 +34,7 @@ I recommend creating **isolated Python environments** using [Virtualenv](https:/
 
 ### Model Weigths
 VGG19, put the link of where you cn find it.  Explained briefly what is it and why we are using such model
+talk about perceptual losses, say that need to used VGG trained on image classification, can make a reference to paper Exploring neural style
 
 ### Speed
 Talk about the speed with GPU. Do it with different mage size (similar as Titus). Then do the same without GPU. Say that it is also possbile but it is slower
