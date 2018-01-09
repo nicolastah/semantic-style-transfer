@@ -1,11 +1,9 @@
 # semantic-style-transfer
+ :art: :art:
 Tensorflow implementation of semantic style transfer based on guided Gram Matrices
 Say that it uses the slow model (imqge optimisation problem)
 
 In construction...
-
-## Contents
-Put hyperlink to the different section
 
 ## Examples
 
