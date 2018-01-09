@@ -5,7 +5,7 @@ Say that it uses the slow model (imqge optimisation problem)
 
 In construction...
 
-## Content
+## Contents
 1. [Examples](#examples)
 2. [Implementation Details](#implementation-details)
 3. [Installation](#installation)
