@@ -59,7 +59,7 @@ Explain guidance guided matrices = semantic mask
 Can put some links to some semantic segmentation algorithms
 Explain how to put the mask in my programm
 
-## Acknowledgement
+## Acknowledgements
 - Guided Gram Matrices is based on Gatys' paper [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865)
 - Our implementation is based on [anishathalye/neural-style](https://github.com/anishathalye/neural-style)
 - Our work is an implement of XX
