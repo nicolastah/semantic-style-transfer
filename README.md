@@ -5,6 +5,9 @@ Say that it uses the slow model (imqge optimisation problem)
 
 In construction...
 
+## Content
+- [Examples](#examples)
+
 ## Examples
 
 ## Implementation Details
@@ -36,6 +39,7 @@ talk about perceptual losses, say that need to used VGG trained on image classif
 
 ### Speed
 Talk about the speed with GPU. Do it with different mage size (similar as Titus). Then do the same without GPU. Say that it is also possbile but it is slower
+Can use emojie here, turtle = slow (cpu), rabbit = fast (gpu)
 
 ## Usage
 ### Full Transfer
