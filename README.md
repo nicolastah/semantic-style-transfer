@@ -41,7 +41,8 @@ I recommend creating **isolated Python environments** using [Virtualenv](https:/
 
 
 ### Model Weigths
-Recall that  style transfer is based on perceptual losses. Thoses losses, based on high level features representation, allows to separate style and content. As in the [orignal work](https://arxiv.org/abs/1508.06576), we have used a [VGG19](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-very) pretrained on image classification.
+Recall that  style transfer is based on **perceptual losses**. Thoses losses, based on 
+**high level features representation**, allows to **separate style and content**. As in the orignal work [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576), we have used a [VGG19](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-very) pretrained on image classification. Download and copy it to the folder X.
 
 ### Speed
 Talk about the speed with GPU. Do it with different mage size (similar as Titus). Then do the same without GPU. Say that it is also possbile but it is slower
