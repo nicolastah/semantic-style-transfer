@@ -10,7 +10,7 @@ In construction...
 2. [Implementation Details](#implementation-details)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [Acknowledgement](#acknowledgement)
+5. [Acknowledgements](#acknowledgements)
 5. [Citation](#citation)
 5. [License](#license)
 
@@ -34,14 +34,14 @@ git clone https://github.com/nicolastah/semantic-style-transfer
 - [SciPy](https://www.scipy.org/install.html)
 - [NumPy](http://www.numpy.org/)
 - [Pillow](http://pillow.readthedocs.io/en/3.3.x/installation.html#installation)
-- CUDA (GPU) -- Recommended
-- CUDNN (GPU) -- Recommended
+- [CUDA](https://developer.nvidia.com/cuda-downloads) (GPU) -- Recommended
+- [CUDNN](https://developer.nvidia.com/cudnn) (GPU) -- Recommended
 
 I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. For those who are not familiar with Virtualenv, here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). Lastly, I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
 
 
 ### Model Weigths
-Recall that  style transfer is based on **perceptual losses**. Thoses losses, based on 
+Recall that  **style transfer** is based on **perceptual losses**. Thoses losses, based on 
 **high level features representation**, allows to **separate style and content**. As in the orignal work [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576), we have used a [VGG19](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-very) pretrained on image classification. Download and copy it to the folder X.
 
 ### Speed
