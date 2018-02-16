@@ -19,14 +19,14 @@ In construction...
 ## Implementation Details
 
 ## Installation
-Say that is pretty easy( no need to recomplie the project)
-Copy this repository using the git clone
-Configure a new project using a python IDE (say that I personnaly use Pycharm), useful to debugg
-Configure project interpreter (chose the virtual env)
+
+Let's get started! Installation will be pretty easy. First, **clone a copy** of this repository:
 
 ```
 git clone https://github.com/nicolastah/semantic-style-transfer
 ```
+
+The next step will be to **create a new project** using your favorite python IDE. I' m using [Pycharm](https://www.jetbrains.com/pycharm/). It has some nice features.  when you have to debugg. You would then to **configure** the project (chose the virtualEnv).
 
 ### Dependencies
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
@@ -34,8 +34,8 @@ git clone https://github.com/nicolastah/semantic-style-transfer
 - [SciPy](https://www.scipy.org/install.html)
 - [NumPy](http://www.numpy.org/)
 - [Pillow](http://pillow.readthedocs.io/en/3.3.x/installation.html#installation)
-- [CUDA](https://developer.nvidia.com/cuda-downloads) (GPU) -- Recommended
-- [CUDNN](https://developer.nvidia.com/cudnn) (GPU) -- Recommended
+- [CUDA](https://developer.nvidia.com/cuda-downloads) (**GPU**) -- Recommended
+- [CUDNN](https://developer.nvidia.com/cudnn) (**GPU**) -- Recommended
 
 I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. For those who are not familiar with Virtualenv, here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). Lastly, I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
 
