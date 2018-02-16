@@ -1,6 +1,6 @@
 # semantic-style-transfer
  :art: :art:
-**Tensorflow** implementation of **semantic style transfer** based on **guided Gram Matrices**
+**Tensorflow** implementation of **semantic style transfer** based on **guided Gram Matrices**.
 Say that it uses the slow model (imqge optimisation problem)
 
 In construction...
@@ -20,7 +20,7 @@ In construction...
 
 ## Installation
 
-Let's get started! Installation will be pretty easy. First, **clone a copy** of this repository:
+Let's get started! **Installation** will be pretty **easy**. First, **clone a copy** of this repository:
 
 ```
 git clone https://github.com/nicolastah/semantic-style-transfer
