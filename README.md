@@ -37,7 +37,8 @@ git clone https://github.com/nicolastah/semantic-style-transfer
 - CUDA (GPU) -- Recommended
 - CUDNN (GPU) -- Recommended
 
-I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. Here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). Say that using Linux is easier than windows to install everything
+I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. Here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
+
 
 ### Model Weigths
 VGG19, put the link of where you cn find it.  Explained briefly what is it and why we are using such model
