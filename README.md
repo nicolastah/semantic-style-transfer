@@ -37,12 +37,11 @@ git clone https://github.com/nicolastah/semantic-style-transfer
 - CUDA (GPU) -- Recommended
 - CUDNN (GPU) -- Recommended
 
-I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. Here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
+I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. For those who are not familiar with Virtualenv, here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). Lastly, I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
 
 
 ### Model Weigths
-VGG19, put the link of where you cn find it.  Explained briefly what is it and why we are using such model
-talk about perceptual losses, say that need to used VGG trained on image classification, can make a reference to paper Exploring neural style
+Recall that  style transfer is based on perceptual losses. Thoses losses, based on high level features representation, allows to separate style and content. As in the [orignal work](https://arxiv.org/abs/1508.06576), we have used a [VGG19](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-very) pretrained on image classification.
 
 ### Speed
 Talk about the speed with GPU. Do it with different mage size (similar as Titus). Then do the same without GPU. Say that it is also possbile but it is slower
