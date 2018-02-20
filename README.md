@@ -26,7 +26,7 @@ Let's get started! **Installation** will be pretty **easy**. First, **clone a co
 git clone https://github.com/nicolastah/semantic-style-transfer
 ```
 
-The next step will be to **create a new project** using your favorite python IDE. I' m using [Pycharm](https://www.jetbrains.com/pycharm/). It has some nice features.  when you have to debugg. You would then to **configure** the project (chose the virtualEnv).
+The next step will be to **create a new project** using your favorite python IDE. I' m personally using [Pycharm](https://www.jetbrains.com/pycharm/). 
 
 ### Dependencies
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
@@ -37,7 +37,13 @@ The next step will be to **create a new project** using your favorite python IDE
 - [CUDA](https://developer.nvidia.com/cuda-downloads) (**GPU**) -- Recommended
 - [CUDNN](https://developer.nvidia.com/cudnn) (**GPU**) -- Recommended
 
-I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. For those who are not familiar with Virtualenv, here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). Lastly, I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
+I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. For those who are not familiar with Virtualenv, here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/).
+
+Lastly, I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
+
+**Remark:** once you virtual environment is created, make sure that you project is properly configured.
+
+```File -> Settings```
 
 
 ### Model Weigths
