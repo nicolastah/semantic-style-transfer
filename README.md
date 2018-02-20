@@ -1,5 +1,5 @@
 # semantic-style-transfer
- :art: :art:
+:art: :art:
 **Tensorflow** implementation of **semantic style transfer** based on **guided Gram Matrices**.
 Say that it uses the slow model (image optimisation problem)
 
@@ -37,9 +37,11 @@ The next step will be to **create a new project** using your favorite python IDE
 - [CUDA](https://developer.nvidia.com/cuda-downloads) (**GPU**) -- Recommended
 - [CUDNN](https://developer.nvidia.com/cudnn) (**GPU**) -- Recommended
 
-I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. For those who are not familiar with Virtualenv, here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). Lastly, I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
+I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts**  :dizzy_face: when working on different projects. For those who are not familiar with Virtualenv, here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). Lastly, I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
 
-**Remark**: make sure that your **project interpreter** is **properly configured**. In Pycharm you can check which interpreter is used by clicking: ```File -> Settings -> Project```. Pycharm lists all the interpreters that you have already used. If you have created a new virtual environment and want to set it as the project interpreter click on the small gear, ```Add Local``` and locate it.
+ :warning: **Remarks**: 
+- make sure that your **project interpreter** is **properly configured**. 
+- In Pycharm you can check which interpreter is used by clicking: ```File -> Settings -> Project```. Pycharm lists all the interpreters that you have already used. If you have created a new virtual environment and want to set it as the project interpreter click on the small gear, ```Add Local``` and locate it.
 
 ### Model Weigths
 Recall that  **style transfer** is based on **perceptual losses**. Thoses losses, based on 
@@ -64,6 +66,7 @@ Explain how to put the mask in my programm
 ## Acknowledgements
 - Guided Gram Matrices is based on Gatys' paper [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865)
 - Our implementation is based on [anishathalye/neural-style](https://github.com/anishathalye/neural-style)
+- Greats tips to obtain good results from [titu1994/Neural-Style-Transfer](https://github.com/titu1994/Neural-Style-Transfer)
 - Our work is an implement of XX
 
 ## Citation
