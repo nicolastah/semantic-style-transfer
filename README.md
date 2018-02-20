@@ -1,7 +1,7 @@
 # semantic-style-transfer
  :art: :art:
 **Tensorflow** implementation of **semantic style transfer** based on **guided Gram Matrices**.
-Say that it uses the slow model (imqge optimisation problem)
+Say that it uses the slow model (image optimisation problem)
 
 In construction...
 
@@ -39,7 +39,7 @@ The next step will be to **create a new project** using your favorite python IDE
 
 I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts** when working on different projects. For those who are not familiar with Virtualenv, here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). Lastly, I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
 
-**Remark:** make sure that your **project interpreter** is **properly configured**. In Pycharm you can check which interpreter is used by clicking: ```File -> Settings -> Project```. **Pycharm** **lists** all the interpreters that you have **already used**. If you have **created** a **new virtual environment** and **want to set it** as the **project interpreter** click on the small gear, ```Add Local``` and locate it.
+**Remark**: make sure that your **project interpreter** is **properly configured**. In Pycharm you can check which interpreter is used by clicking: ```File -> Settings -> Project```. Pycharm lists all the interpreters that you have already used. If you have created a new virtual environment and want to set it as the project interpreter click on the small gear, ```Add Local``` and locate it.
 
 ### Model Weigths
 Recall that  **style transfer** is based on **perceptual losses**. Thoses losses, based on 
