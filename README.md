@@ -26,7 +26,7 @@ Let's get started! **Installation** will be pretty **easy**. First, **clone a co
 git clone https://github.com/nicolastah/semantic-style-transfer
 ```
 
-The next step will be to **create a new project** using your favorite python IDE. I' m personally using [Pycharm](https://www.jetbrains.com/pycharm/). 
+The next step will be to **create a new project** using your favorite python IDE. I' m personally using [Pycharm](https://www.jetbrains.com/pycharm/).  
 
 ### Dependencies
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
@@ -41,10 +41,7 @@ I recommend creating **isolated Python environments** using [Virtualenv](https:/
 
 Lastly, I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
 
-**Remark:** once you virtual environment is created, make sure that you project is properly configured.
-
-```File -> Settings```
-
+**Remark:** make sure that your **project interpreter** is **properly configured**. In Pycharm you can check which interpreter is used by clicking: ```File -> Settings -> Project```. If you have created a virtual environment and want to use it as the project interpreter click one the small gear, ```Add Local``` and locate your virtual environment.
 
 ### Model Weigths
 Recall that  **style transfer** is based on **perceptual losses**. Thoses losses, based on 
