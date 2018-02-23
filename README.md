@@ -32,7 +32,7 @@ The next step will be to **create a new project** using your favorite python IDE
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
 - [TensorFlow](https://www.tensorflow.org)
 - [SciPy](https://www.scipy.org/install.html)
-- [NumPy](http://www.numpy.org/)
+- [NumPy](http://www.numpy.org
 - [Pillow](http://pillow.readthedocs.io/en/3.3.x/installation.html#installation)
 - [CUDA](https://developer.nvidia.com/cuda-downloads) (**GPU**) -- Recommended
 - [CUDNN](https://developer.nvidia.com/cudnn) (**GPU**) -- Recommended
@@ -43,9 +43,9 @@ I recommend creating **isolated Python environments** using [Virtualenv](https:/
 - make sure that your **project interpreter** is **properly configured**. 
 - In Pycharm you can check which interpreter is used by clicking: ```File -> Settings -> Project```. Pycharm lists all the interpreters that you have already used. If you have created a new virtual environment and want to set it as the project interpreter click on the small gear, ```Add Local``` and locate it.
 
-### Model Weigths
-Recall that  **style transfer** is based on **perceptual losses**. Thoses losses, based on 
-**high level features representation**, allows to **separate style and content**. As in the orignal work [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576), we have used a [VGG19](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-very) pretrained on image classification. Download and copy it to the folder X.
+### Model Weigths: VGG19
+Recall that  **style transfer** is based on **perceptual losses**. Thoses losses are computed from
+**high level features**. They allows to **separate style and content**. As in the orignal work [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576), we extratc those features using a **VGG19** pretrained on image classification.  **Download** [here]( http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat).
 
 ### Speed
 Talk about the speed with GPU. Do it with different mage size (similar as Titus). Then do the same without GPU. Say that it is also possbile but it is slower
