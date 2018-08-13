@@ -1,8 +1,8 @@
+In construction...
+
 # semantic-style-transfer
 :art: :art:
 **Tensorflow** implementation of **semantic style transfer** based on **guided Gram Matrices**. Our model is based on the image optimisation problem defined in [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576). 
-
-In construction...
 
 ## Contents
 1. [Examples](#examples)
