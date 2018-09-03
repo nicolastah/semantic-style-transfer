@@ -16,13 +16,13 @@ In construction...
 5. [License](#license)
 
 ## Examples
-### Full style transfer
+#### Full style transfer
 <div align='center'>
  <img src='examples/cat700.png' height="225px">
  <img src='examples/cat700.png' height="225px">
 </div>
 
-### Semantic style transfer
+#### Semantic style transfer
 
 ## Implementation Details
 
