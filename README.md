@@ -17,6 +17,11 @@ In construction...
 
 ## Examples
 
+<div align='center'>
+ <img src='examples/cat700.png' height="225px">
+ <img src='examples/cat700.png' height="225px">
+</div>
+
 ## Implementation Details
 
 ## Installation
