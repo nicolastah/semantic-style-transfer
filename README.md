@@ -18,9 +18,9 @@ In construction...
 ## Examples
 #### Full style transfer
 <div align='center'>
- <img src='content/cat.jpg' height="207.7px">
- <img src='style/rain_princess.jpg' height="207.7px">
- <img src='output/cat_full.png' height="207.7px">
+ <img src='content/cat.jpg' height="209px">
+ <img src='style/rain_princess.jpg' height="209px">
+ <img src='output/cat_full.png' height="209px">
 </div>
 
 #### Semantic style transfer
