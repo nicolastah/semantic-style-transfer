@@ -70,7 +70,7 @@ The next step will be to **create a new project** using your favorite python IDE
 - [CUDA](https://developer.nvidia.com/cuda-downloads) (**GPU**) -- Recommended
 - [CUDNN](https://developer.nvidia.com/cudnn) (**GPU**) -- Recommended
 
-I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts**  :dizzy_face: when working on different projects. For those who are not familiar with Virtualenv, here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). Lastly, I' m using [Ubuntu16.04](https://www.ubuntu.com/download/desktop), but the code should run on Windows and macOs.
+I recommend creating **isolated Python environments** using [Virtualenv](https://virtualenv.pypa.io/en/stable/). **Vital** to **avoid dependencies conflicts**  :dizzy_face: when working on different projects. For those who are not familiar with Virtualenv, here are 2 tutorials that should help you get started, [tuto1](http://thepythonguru.com/python-virtualenv-guide/) and [tuto2](http://www.simononsoftware.com/virtualenv-tutorial-part-2/). The code was tested on [Ubuntu16.04](https://www.ubuntu.com/download/desktop).
 
  :warning: **Remarks**: 
 - make sure that your **project interpreter** is **properly configured**. 
