@@ -25,10 +25,10 @@ In construction...
 
 #### Semantic style transfer
 <div align='center'>
-  <img src='mask/cat.png' height="100px">
- <img src='style/wave.jpg' height="100px" width="100px">
- <img src='style/rain_princess.jpg' height="100px" width="100px">
- <img src='style/ashville.jpg' height="100px" width="100px">
+  <img src='mask/cat.png' height="125px">
+ <img src='style/wave.jpg' height="125px" width="125px">
+ <img src='style/rain_princess.jpg' height="125px" width="125px">
+ <img src='style/ashville.jpg' height="125px" width="125px">
 </div>
 
 <div align='center'>
