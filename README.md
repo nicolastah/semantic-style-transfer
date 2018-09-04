@@ -102,8 +102,11 @@ python neural_style.py --semantic-transfer False \
 ```
 python neural_style.py --semantic-transfer True \
  --content ./content/cat.jpg \
+ --initial ./content/cat.jpg \
  --semantic-styles ./style/rain_princess.jpg ./style/wave.jpg ./style/ashville.jpg \
  --mask ./mask/cat3.mat
+ --gradient-capping True \
+ --capped_objs 1 0 0 \
  --output ./output/cat.png
 ```
 
