@@ -24,6 +24,13 @@ In construction...
 </div>
 
 #### Semantic style transfer
+<div align='center'>
+ <img src='style/rain_princess.jpg' height="150px">
+ <img src='style/rain_princess.jpg' height="150px">
+ <img src='style/rain_princess.jpg' height="150px">
+ <img src='content/cat.jpg' height="225px">
+ <img src='output/cat_sem.png' height="225px">
+</div>
 
 ## Implementation Details
 
