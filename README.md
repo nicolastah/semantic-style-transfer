@@ -47,8 +47,8 @@ In construction...
 </div>
 
 <div align='center'>
- <img src='content/elephant.jpg' height="250px">
- <img src='output/elephant.png' height="250px">
+ <img src='content/elephant.jpg' height="311.5px">
+ <img src='output/elephant.png' height="311.5px">
 </div>
 
 ## Implementation Details
