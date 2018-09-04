@@ -24,7 +24,6 @@ In construction...
 </div>
 
 #### Semantic style transfer
-- 3 style combination
 <div align='center'>
  <img src='mask/cat.png' height="157.75px">
  <img src='style/wave.jpg' height="157.75px" width="157.17px">
@@ -37,7 +36,6 @@ In construction...
  <img src='output/cat_sem.png' height="315.5px">
 </div>
 
- - 4 style combination
 <div align='center'>
  <img src='mask/elephant.png' height="123px" width="123px">
  <img src='style/wave.jpg' height="123px" width="123px">
