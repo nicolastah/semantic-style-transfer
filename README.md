@@ -85,12 +85,28 @@ Talk about the speed with GPU. Do it with different mage size (similar as Titus)
 Can use emojie here, turtle = slow (cpu), rabbit = fast (gpu)
 
 ## Usage
-### Full Transfer
-Show how to run the code
+
 Say how to pgive param script using pycharm
 Put link to titu Kera implementation, say that can check his work for the tips
 
+### Full Transfer
+```
+python neural_style.py --semantic-transfer False \
+ --content ./content/cat.jpg \
+ --initial ./content/cat.jpg \
+ --style ./style/rain_princess.jpg \
+ --output ./output/cat.png
+```
+
 ### Semantic Transfer
+```
+python neural_style.py --semantic-transfer True \
+ --content ./content/cat.jpg \
+ --semantic-styles ./style/rain_princess.jpg ./style/wave.jpg ./style/ashville.jpg \
+ --mask ./mask/cat3.mat
+ --output ./output/cat.png
+```
+
 Show how to run the code
 Explain guidance guided matrices = semantic mask
 Can put some links to some semantic segmentation algorithms
