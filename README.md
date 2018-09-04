@@ -32,6 +32,7 @@ In construction...
 
 <div align='center'>
  <img src='content/cat.jpg' height="225px">
+ <img src='mask/cat.png' height="225px">
  <img src='output/cat_sem.png' height="225px">
 </div>
 
