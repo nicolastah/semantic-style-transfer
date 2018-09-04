@@ -25,9 +25,11 @@ In construction...
 
 #### Semantic style transfer
 <div align='center'>
- <img src='style/rain_princess.jpg' height="150px">
- <img src='style/rain_princess.jpg' height="150px">
- <img src='style/rain_princess.jpg' height="150px">
+ <img src='style/wave.jpg' height="150px">
+ <img src='style/rain_princess.jpg' height="150px" width="150px">
+ <img src='style/ashville.jpg' height="150px" width="150px">
+</div>
+<div align='center'>
  <img src='content/cat.jpg' height="225px">
  <img src='output/cat_sem.png' height="225px">
 </div>
