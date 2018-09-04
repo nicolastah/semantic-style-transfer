@@ -26,15 +26,15 @@ In construction...
 #### Semantic style transfer
 - 3 style combination
 <div align='center'>
- <img src='mask/cat.png' height="123px">
- <img src='style/wave.jpg' height="123px" width="123px">
- <img src='style/rain_princess.jpg' height="123px" width="123px">
- <img src='style/ashville.jpg' height="123px" width="123px">
+ <img src='mask/cat.png' height="157.75px">
+ <img src='style/wave.jpg' height="157.75px" width="157.17px">
+ <img src='style/rain_princess.jpg' height="157.75px" width="157.75px">
+ <img src='style/ashville.jpg' height="157.75px" width="157.75px">
 </div>
 
 <div align='center'>
- <img src='content/cat.jpg' height="250px">
- <img src='output/cat_sem.png' height="250px">
+ <img src='content/cat.jpg' height="315.5px">
+ <img src='output/cat_sem.png' height="315.5px">
 </div>
 
  - 4 style combination
