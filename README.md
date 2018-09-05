@@ -90,6 +90,8 @@ Say how to pgive param script using pycharm
 Put link to titu Kera implementation, say that can check his work for the tips
 
 ### Full Transfer
+Use ```neural_style.py```. If ```initial``` is not specified, noise is used to begin the optimization. ```semantic-transfer``` has be set to ```False```.
+
 ```
 python neural_style.py --semantic-transfer False \
  --content ./content/cat.jpg \
@@ -99,6 +101,8 @@ python neural_style.py --semantic-transfer False \
 ```
 
 ### Semantic Transfer
+Use ```neural_style.py```. ```semantic-transfer``` has be set to ```True``` . ```semantic-styles``` represents the style images that has to be applied. The number of input style has be equalled to the number of semantic regions in the content image. The method works for content images with more than 2 regions.
+
 ```
 python neural_style.py --semantic-transfer True \
  --content ./content/cat.jpg \
@@ -110,8 +114,6 @@ python neural_style.py --semantic-transfer True \
  --output ./output/cat.png
 ```
 
-Show how to run the code
-Explain guidance guided matrices = semantic mask
 Can put some links to some semantic segmentation algorithms
 Explain how to put the mask in my programm
 
