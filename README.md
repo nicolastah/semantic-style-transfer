@@ -114,8 +114,11 @@ python neural_style.py --semantic-transfer True \
  --output ./output/cat.png
 ```
 
+#### Note about ```semantic-styles``` and ```mask``` 
 - The number of input style has be equalled to the number of semantic regions in the content image. 
 - The method works for content images with more than 2 regions.
+
+#### Note about ```gradient-capping``` and ```capped_objs```
 
 Can put some links to some semantic segmentation algorithms
 Explain how to put the mask in my programm
