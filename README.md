@@ -101,7 +101,7 @@ python neural_style.py --semantic-transfer False \
 ```
 
 ### Semantic Transfer
-Use ```neural_style.py```. ```semantic-transfer``` has be set to ```True``` . ```semantic-styles``` represents the style images that has to be applied. The number of input style has be equalled to the number of semantic regions in the content image. The method works for content images with more than 2 regions.
+Use ```neural_style.py```. ```semantic-transfer``` has be set to ```True``` . ```semantic-styles``` represents the style images that has to be applied. 
 
 ```
 python neural_style.py --semantic-transfer True \
@@ -113,6 +113,9 @@ python neural_style.py --semantic-transfer True \
  --capped_objs 1 0 0 \
  --output ./output/cat.png
 ```
+
+- The number of input style has be equalled to the number of semantic regions in the content image. 
+- The method works for content images with more than 2 regions.
 
 Can put some links to some semantic segmentation algorithms
 Explain how to put the mask in my programm
