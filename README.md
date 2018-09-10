@@ -1,4 +1,5 @@
 In construction...
+The code should be uploaded in 2 - 3 weeks
 
 # semantic-style-transfer
 :art: :art:
@@ -87,10 +88,10 @@ Can use emojie here, turtle = slow (cpu), rabbit = fast (gpu)
 ## Usage
 
 Say how to pgive param script using pycharm
-Put link to titu Kera implementation, say that can check his work for the tips
+
 
 ### Full Transfer
-Use ```neural_style.py```. If ```initial``` is not specified, noise is used to begin the optimization. ```semantic-transfer``` has be set to ```False```.
+Use ```neural_style.py```. If ```initial``` is not specified, noise is used to begin the optimization. ```semantic-transfer``` has to be set to ```False```.
 
 ```
 python neural_style.py --semantic-transfer False \
@@ -101,7 +102,7 @@ python neural_style.py --semantic-transfer False \
 ```
 
 ### Semantic Transfer
-Use ```neural_style.py```. ```semantic-transfer``` has be set to ```True``` . ```semantic-styles``` represents the style images that has to be applied. 
+Use ```neural_style.py```. ```semantic-transfer``` has be set to ```True``` . ```semantic-styles``` represents the style images that has to be applied. If ```initial``` is not specified, noise is used to begin the optimization. ```mask``` represents the segmentation mask. Set ```gradient-capping``` to ```True``` to combine it with guided Gram matrices. When using gradient capping, specify which objects it is applied to with ```capped_objs```. ```1``` means apply, ```0``` means do not apply gradient capping.
 
 ```
 python neural_style.py --semantic-transfer True \
@@ -115,19 +116,21 @@ python neural_style.py --semantic-transfer True \
 ```
 
 #### Note about ```semantic-styles``` and ```mask``` 
+- ```mask```  is a  ```.mat```  file. Use the given script to convert segmentation masks to ```.mat```.
 - The number of input style has be equalled to the number of semantic regions in the content image. 
 - The method works for content images with more than 2 regions.
 
 #### Note about ```gradient-capping``` and ```capped_objs```
-
-Can put some links to some semantic segmentation algorithms
-Explain how to put the mask in my programm
-
+ - The segmentation masks used in this project are from [COCO](http://cocodataset.org/).
+ - The more acurate the segmentation masks are, the best the results are.
+ - Gradient capping can be combined with erosion / dilation to improve the results.
+ - You might need to increase ```tv-weight``` to smooth transition between objects when using gradient capping.
+ 
 ## Acknowledgements
 - Guided Gram Matrices is based on Gatys' paper [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865)
-- Our implementation is based on [anishathalye/neural-style](https://github.com/anishathalye/neural-style)
+- Our implementation is borrows heavily from [anishathalye/neural-style](https://github.com/anishathalye/neural-style)
 - Greats tips to obtain good results from [titu1994/Neural-Style-Transfer](https://github.com/titu1994/Neural-Style-Transfer)
-- Our work is an implement of XX
+- Some formatting was borrowed from [jcjohnson/fast-neural-style](https://github.com/jcjohnson/fast-neural-style)
 
 ## Citation
 ```
