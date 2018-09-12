@@ -81,13 +81,9 @@ I recommend creating **isolated Python environments** using [Virtualenv](https:/
 - **Download** the weights [here]( http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat).
 - Recall that **style transfer** is based on **perceptual losses**. Those losses allow to **separate style and content**. They are computed from **high level features**. As in the orignal work [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576), we extract those features using a **VGG19** pretrained on image classification.  
 
-### Speed
-Talk about the speed with GPU. Do it with different mage size (similar as Titus). Then do the same without GPU. Say that it is also possbile but it is slower
-Can use emojie here, turtle = slow (cpu), rabbit = fast (gpu)
-
 ## Usage
 
-Say how to pgive param script using pycharm
+In Pycharm parameters can be given to a script by clicking: ```Run```, ```Run...```,  ```Edit Configurations```, and ```Script parameters```.
 
 
 ### Full Transfer
@@ -102,7 +98,7 @@ python neural_style.py --semantic-transfer False \
 ```
 
 ### Semantic Transfer
-Use ```neural_style.py```. ```semantic-transfer``` has be set to ```True``` . ```semantic-styles``` represents the style images that has to be applied. If ```initial``` is not specified, noise is used to begin the optimization. ```mask``` represents the segmentation mask. Set ```gradient-capping``` to ```True``` to combine it with guided Gram matrices. When using gradient capping, specify which objects it is applied to with ```capped_objs```. ```1``` means apply, ```0``` means do not apply gradient capping.
+Use ```neural_style.py```. ```semantic-transfer``` has be set to ```True``` . ```semantic-styles``` represents the style images that has to be applied. If ```initial``` is not specified, noise is used to begin the optimization. ```mask``` represents the segmentation mask. Set ```gradient-capping``` to ```True``` to combine it with guided Gram matrices. When using gradient capping, specify which objects it is applied to with ```capped_objs```. ```1``` means apply, ```0``` means do not apply gradient capping. ```auto-tuning``` will compute.
 
 ```
 python neural_style.py --semantic-transfer True \
@@ -112,6 +108,8 @@ python neural_style.py --semantic-transfer True \
  --mask ./mask/cat3.mat
  --gradient-capping True \
  --capped_objs 1 0 0 \
+ --auto-tuning True \
+ --erosion False \
  --output ./output/cat.png
 ```
 
@@ -123,8 +121,12 @@ python neural_style.py --semantic-transfer True \
 #### Note about ```gradient-capping``` and ```capped_objs```
  - The segmentation masks used in this project are from [COCO](http://cocodataset.org/).
  - The more acurate the segmentation masks are, the best the results are.
- - Gradient capping can be combined with erosion / dilation to improve the results.
  - You might need to increase ```tv-weight``` to smooth transition between objects when using gradient capping.
+ 
+ #### Note about ```erosion``` 
+  - Erosion / dilation can improve the results.
+  - It can be combined with Gradient capping.
+  - In current implementation, only erosion on all the guidance channels was implemented (cross-shaped structuring element, connectivity 1). More can be learnt in.
  
 ## Acknowledgements
 - Guided Gram Matrices is based on Gatys' paper [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865)
