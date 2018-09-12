@@ -98,7 +98,7 @@ python neural_style.py --semantic-transfer False \
 ```
 
 ### Semantic Transfer
-Use ```neural_style.py```. ```semantic-transfer``` has be set to ```True``` . ```semantic-styles``` represents the style images that has to be applied. If ```initial``` is not specified, noise is used to begin the optimization. ```mask``` represents the segmentation mask. Set ```gradient-capping``` to ```True``` to combine it with guided Gram matrices. When using gradient capping, specify which objects it is applied to with ```capped_objs```. ```1``` means apply, ```0``` means do not apply gradient capping. ```auto-tuning``` will compute.
+Use ```neural_style.py```. ```semantic-transfer``` has be set to ```True``` . ```semantic-styles``` represents the style images that has to be applied. If ```initial``` is not specified, noise is used to begin the optimization. ```mask``` represents the segmentation mask. Set ```gradient-capping``` to ```True``` to combine it with guided Gram matrices. When using gradient capping, specify which objects it is applied to with ```capped_objs```. ```1``` means apply, ```0``` means do not apply gradient capping. 
 
 ```
 python neural_style.py --semantic-transfer True \
@@ -115,7 +115,10 @@ python neural_style.py --semantic-transfer True \
 
 #### Note about ```semantic-styles``` and ```mask``` 
 - ```mask```  is a  ```.mat```  file. Use the given script to convert segmentation masks to ```.mat```.
-- The number of input style has be equalled to the number of semantic regions in the content image. 
+- Each different number in ```mask``` correspond to 1 semantic region.
+- The number of input style has be equalled to the number of semantic regions in the content image.
+- The order of input style images determines which style is applied to which region in the content image. Ex: input style: style1, style2, style3. mask [m1, m2, m3]. Then: style1 is applied to m1, style2 is applied to m2 and style
+3 is applied to m3.
 - The method works for content images with more than 2 regions.
 
 #### Note about ```gradient-capping``` and ```capped_objs```
@@ -126,7 +129,11 @@ python neural_style.py --semantic-transfer True \
  #### Note about ```erosion``` 
   - Erosion / dilation can improve the results.
   - It can be combined with Gradient capping.
-  - In current implementation, only erosion on all the guidance channels was implemented (cross-shaped structuring element, connectivity 1). More can be learnt in.
+  - In current implementation, only erosion on all the guidance channels was implemented (cross-shaped structuring element, connectivity 1). More about erosion in [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865).
+  
+  #### Note about ```auto-tuning``` 
+   - Idea behind: each style should contribute equally
+   - Compute style weight using pixel ratio of associated region
  
 ## Acknowledgements
 - Guided Gram Matrices is based on Gatys' paper [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865)
