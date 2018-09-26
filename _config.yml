@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
-
+title: Semantic style transfer
 plugins:
   - jemoji
