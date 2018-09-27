@@ -65,6 +65,7 @@ The next step will be to **create a new project** using your favorite python IDE
 - [SciPy](https://www.scipy.org/install.html)
 - [NumPy](http://www.numpy.org)
 - [Pillow](http://pillow.readthedocs.io/en/3.3.x/installation.html#installation)
+- [pyexcel](https://github.com/pyexcel/pyexcel) -- To save loss curves
 - [CUDA](https://developer.nvidia.com/cuda-downloads) (**GPU**) -- Recommended
 - [CUDNN](https://developer.nvidia.com/cudnn) (**GPU**) -- Recommended
 
