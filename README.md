@@ -1,3 +1,5 @@
+Code out :blush:, still cleaning the readme and the wiki
+
 # semantic-style-transfer
 :art: :art:
 **Tensorflow** implementation of our paper **Improving Semantic Style Transfer Using Guided Gram Matrices**. Our model is based on the image optimisation problem defined in [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865). We proposed 2 simple solutions to improve the quality of the generated images:
