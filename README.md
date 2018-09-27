@@ -1,6 +1,6 @@
 # semantic-style-transfer
 :art: :art:
-**Tensorflow** implementation of **semantic style transfer** based on **guided Gram Matrices**. Our model is based on the image optimisation problem defined in [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865). We proposed 2 simple solutions to improve the quality of the generated images:
+**Tensorflow** implementation of our paper **Improving Semantic Style Transfer Using Guided Gram Matrices**. Our model is based on the image optimisation problem defined in [Controlling Perceptual Factors in Neural Style Transfer](https://arxiv.org/abs/1611.07865). We proposed 2 simple solutions to improve the quality of the generated images:
 - Gradient capping
 - Auto-tuning
 
@@ -75,7 +75,7 @@ I recommend creating **isolated Python environments** using [Virtualenv](https:/
 - Recall that **style transfer** is based on **perceptual losses**. Those losses allow to **separate style and content**. They are computed from **high level features**. As in the orignal work [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576), we extract those features using a **VGG19** pretrained on image classification.  
 
 ## Usage
-Check the wiki for code usage.
+Check our wiki for code usage.
 
 ## Acknowledgements
 - Guided Gram Matrices is based on Gatys' paper [Controlling Perceptual Factors in Neural Style Transfer]()
