@@ -77,6 +77,12 @@ I recommend creating **isolated Python environments** using [Virtualenv](https:/
 ## Usage
 Check the wiki for code usage.
 
+## Acknowledgements
+- Guided Gram Matrices is based on Gatys' paper [Controlling Perceptual Factors in Neural Style Transfer]()
+- Our implementation borrows heavily from [anishathalye/neural-style](https://github.com/anishathalye/neural-style)
+- Greats tips to obtain good results from [titu1994/Neural-Style-Transfer](https://github.com/titu1994/Neural-Style-Transfer)
+- Some formatting was borrowed from [jcjohnson/fast-neural-style](https://github.com/lengstrom/fast-style-transfer)
+
 ## Citation
 ```
 @misc{nchung2018_semantic_style,
